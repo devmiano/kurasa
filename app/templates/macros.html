@@ -1,0 +1,7 @@
+{% macro get(blogs) %} {% if blogs %} {% for blog in blogs %}
+<div class="">
+  <p class="category">{{blog.title}}</p>
+  <p class="caption">{{blog.caption}}</p>
+  <p class="date">{{blog.posted}}</p>
+</div>
+{% endfor %} {% else %} {% endif %} {% endmacro %}
