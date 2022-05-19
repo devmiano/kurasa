@@ -1,4 +1,17 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField,SubmitField,TextAreaField
 from wtforms.validators import InputRequired,Length
-from ..models import User
+
+class UpdateProfile(FlaskForm):
+  first_name = StringField('Enter your first name', validators=[InputRequired(), Length(min=4, max=100)])
+  last_name = StringField('Enter your last name', validators=[InputRequired(), Length(min=4, max=100)])
+  bio = TextAreaField('Tell us about you.',validators = [InputRequired()])
+  submit = SubmitField('Submit')
+  
+class AddBlog(FlaskForm):
+  caption = TextAreaField('Enter your  caption')
+  submit = SubmitField('Submit')
+  
+class AddComment(FlaskForm):
+  caption = TextAreaField('Add your  comment')
+  submit = SubmitField('Submit')
