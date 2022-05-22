@@ -1,3 +1,39 @@
 @import '../base/colors';
 @import '../base/fonts';
 @import '../base/mixins';
+
+#hero {
+  width: 100%;
+  padding: 4rem;
+  @include image;
+  min-height: 80vh;
+  @include col-start;
+  justify-content: flex-end;
+  background-image: url('/assets/images/kurasa.svg');
+
+  .content {
+    width: 60%;
+    padding: 3rem;
+    @include shadow;
+    @include col-start;
+    border-radius: 0.4rem;
+    background-color: $light;
+
+    .title {
+      @include title;
+      color: $dark;
+      margin-bottom: 2rem;
+    }
+
+    .text {
+      color: $text;
+      @include text;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      @include btn;
+      @include link;
+    }
+  }
+}

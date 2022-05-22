@@ -41,9 +41,9 @@ html:focus-within {
 /* // Set core body defaults */
 body {
   line-height: 1.5;
-  color: $dark;
+  color: $text;
   font-family: $font;
-  background-color: $light-200;
+  background-color: $light;
   text-rendering: optimizeSpeed;
 }
 
