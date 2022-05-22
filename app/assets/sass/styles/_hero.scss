@@ -6,7 +6,7 @@
   width: 100%;
   padding: 4rem;
   @include image;
-  min-height: 80vh;
+  min-height: 100vh;
   @include col-start;
   justify-content: flex-end;
   background-image: url('/assets/images/kurasa.svg');
