@@ -78,72 +78,90 @@
           @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000313}}
           #forms {
             width: 100%;
-            margin: 2rem 0; }
-            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000317}}
+            padding: 4rem;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url('/assets/images/cover-one.svg'); }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000321}}
             #forms .signup, #forms .login {
-              width: 100%;
+              width: 60%;
+              padding: 3rem;
+              box-shadow: 0px 0px 48px 13px rgba(67, 79, 117, 0.64);
+              -webkit-box-shadow: 0px 0px 48px 13px rgba(67, 79, 117, 0.64);
+              -moz-box-shadow: 0px 0px 48px 13px rgba(67, 79, 117, 0.64);
               display: flex;
               align-items: center;
               flex-direction: column;
-              justify-content: center; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000319}}
+              justify-content: center;
+              border-radius: 0.4rem;
+              background-color: #fefffe; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000327}}
               #forms .signup .title, #forms .login .title {
                 line-height: 1;
                 font-weight: 400;
                 font-size: 3.2rem;
                 font-family: 'Outfit', sans-serif;
-                margin-bottom: 1rem; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000324}}
+                color: #252c41;
+                margin-bottom: 2rem; }
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000333}}
                 #forms .signup .text, #forms .login .text {
                   color: #434f75;
                   font-size: 1rem;
                   font-weight: 400;
                   font-family: 'Outfit', sans-serif;
-                  letter-spacing: 0.05rem; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000327}}
+                  letter-spacing: 0.01rem;
+                  margin-bottom: 2rem; }
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000337}}
                   #forms .signup .text .link, #forms .login .text .link {
                     color: #252c41;
                     text-decoration: none;
                     font-size: 1rem;
                     font-weight: 400;
                     font-family: 'Outfit', sans-serif;
-                    letter-spacing: 0.05rem;
+                    letter-spacing: 0.01rem;
                     font-weight: 600; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000336}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000346}}
               #forms .signup .message, #forms .login .message {
                 color: #434f75;
                 font-size: 1rem;
                 font-weight: 400;
                 font-family: 'Outfit', sans-serif;
-                letter-spacing: 0.05rem; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000339}}
+                letter-spacing: 0.01rem;
+                margin-bottom: 2rem; }
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000350}}
                 #forms .signup .message .error, #forms .login .message .error {
                   font-size: 1rem;
                   font-weight: 400;
                   font-family: 'Outfit', sans-serif;
-                  letter-spacing: 0.05rem;
+                  letter-spacing: 0.01rem;
                   color: #f292a4;
                   font-weight: 300; }
-              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000347}}
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000358}}
               #forms .signup .form, #forms .login .form {
-                width: 60%;
+                width: 100%;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 justify-content: center; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000350}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000361}}
                 #forms .signup .form .remember, #forms .login .form .remember {
                   width: 80%;
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
                   justify-content: flex-start; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000353}}
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000364}}
                   #forms .signup .form .remember .input, #forms .login .form .remember .input {
                     font-size: 1rem;
                     font-weight: 400;
                     font-family: 'Outfit', sans-serif;
-                    letter-spacing: 0.05rem;
+                    letter-spacing: 0.01rem;
                     color: #252c41;
                     outline: none;
                     font-size: 1rem;
@@ -153,27 +171,27 @@
                     background: transparent;
                     border: 2px solid #9bc53d;
                     margin: 0.5rem 1rem; }
-                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000362}}
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000373}}
                     #forms .signup .form .remember .input::placeholder,
                     #forms .login .form .remember .input::placeholder {
                       color: #434f75;
                       background: transparent; }
-                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000366}}
+                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000377}}
                       #forms .signup .form .remember .input:focus,
                       #forms .login .form .remember .input:focus {
                         color: #434f75;
                         background: transparent; }
-                        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000370}}
+                        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000381}}
                         #forms .signup .form .remember .input:active,
                         #forms .login .form .remember .input:active {
                           color: #434f75;
                           background: transparent; }
-                          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000374}}
+                          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000385}}
                           #forms .signup .form .remember .input:focus-visible,
                           #forms .login .form .remember .input:focus-visible {
                             color: #434f75;
                             background: transparent; }
-                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000361}}
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000372}}
                 #forms .signup .form .group, #forms .login .form .group {
                   width: 100%;
                   margin: 0.4rem 0;
@@ -181,28 +199,30 @@
                   align-items: center;
                   flex-direction: column;
                   justify-content: center; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000365}}
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000376}}
                   #forms .signup .form .group .error, #forms .login .form .group .error {
                     font-size: 1rem;
                     font-weight: 400;
                     font-family: 'Outfit', sans-serif;
-                    letter-spacing: 0.05rem;
+                    letter-spacing: 0.01rem;
                     color: #f292a4;
                     list-style: none; }
-                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000371}}
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000382}}
                     #forms .signup .form .group .label, #forms .login .form .group .label {
                       width: 80%;
+                      color: #434f75;
                       font-size: 1rem;
                       font-weight: 400;
                       font-family: 'Outfit', sans-serif;
-                      letter-spacing: 0.05rem; }
-                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000376}}
+                      letter-spacing: 0.01rem;
+                      font-size: 0.8rem; }
+                      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000389}}
                       #forms .signup .form .group .input, #forms .login .form .group .input {
                         width: 80%;
                         font-size: 1rem;
                         font-weight: 400;
                         font-family: 'Outfit', sans-serif;
-                        letter-spacing: 0.05rem;
+                        letter-spacing: 0.01rem;
                         color: #252c41;
                         outline: none;
                         font-size: 1rem;
@@ -211,31 +231,31 @@
                         border-radius: 0.4rem;
                         background: transparent;
                         border: 2px solid #9bc53d; }
-                        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000385}}
+                        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000398}}
                         #forms .signup .form .group .input::placeholder,
                         #forms .login .form .group .input::placeholder {
                           color: #434f75;
                           background: transparent; }
-                          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000389}}
+                          @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\00003102}}
                           #forms .signup .form .group .input:focus, #forms .login .form .group .input:focus {
                             color: #434f75;
                             background: transparent; }
-                            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000393}}
+                            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\00003106}}
                             #forms .signup .form .group .input:active, #forms .login .form .group .input:active {
                               color: #434f75;
                               background: transparent; }
-                              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000397}}
+                              @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\00003110}}
                               #forms .signup .form .group .input:focus-visible,
                               #forms .login .form .group .input:focus-visible {
                                 color: #434f75;
                                 background: transparent; }
-                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000382}}
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_forms\.scss}line{font-family:\0000395}}
                   #forms .signup .form .group .btn, #forms .login .form .group .btn {
                     width: 80%;
                     border: none;
                     outline: none;
                     cursor: pointer;
-                    color: #9bc53d;
+                    color: #caf316;
                     background: #252c41;
                     padding: 1rem 2rem;
                     border-radius: 0.4rem;
@@ -273,7 +293,7 @@
         font-size: 1rem;
         font-weight: 400;
         font-family: 'Outfit', sans-serif;
-        letter-spacing: 0.05rem;
+        letter-spacing: 0.01rem;
         color: #9bc53d; }
   @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_navbar\.scss}line{font-family:\0000341}}
   #navbar .right {
@@ -296,7 +316,7 @@
         font-size: 1rem;
         font-weight: 400;
         font-family: 'Outfit', sans-serif;
-        letter-spacing: 0.05rem;
+        letter-spacing: 0.01rem;
         color: #9bc53d; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_footer\.scss}line{font-family:\0000315}}
@@ -316,7 +336,7 @@
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Outfit', sans-serif;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.01rem;
     color: #9bc53d;
     font-weight: 200; }
     @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_footer\.scss}line{font-family:\0000328}}
@@ -324,7 +344,7 @@
       font-size: 1rem;
       font-weight: 400;
       font-family: 'Outfit', sans-serif;
-      letter-spacing: 0.05rem;
+      letter-spacing: 0.01rem;
       color: #9bc53d;
       font-weight: 200; }
 

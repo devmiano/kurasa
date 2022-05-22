@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <clipPath id="clip-cover-three">
+      <rect width="1600" height="1200"/>
+    </clipPath>
+  </defs>
+  <g id="cover-three" clip-path="url(#clip-cover-three)">
+    <rect id="Background" width="1600" height="1200" fill="#fff"/>
+    <g id="Rhône" transform="translate(0 -1)">
+      <g id="Group_44" data-name="Group 44" transform="translate(1600 1801.379) rotate(180)">
+        <path id="Shape" d="M200,0c0,110.456-89.544,200-200,200V0Z" transform="translate(600 800.689)" fill="#77ba99"/>
+        <path id="Shape-2" data-name="Shape" d="M200,200C89.544,200,0,110.456,0,0H200Z" transform="translate(400 1000.689)" fill="#77ba99"/>
+        <path id="Shape-3" data-name="Shape" d="M0,200H0C0,89.544,89.543,0,200,0h0V200Z" transform="translate(0 800.689)" fill="#77ba99"/>
+        <path id="Shape-4" data-name="Shape" d="M200,200h0C89.542,200,0,110.456,0,0H200Z" transform="translate(400 800.689)" fill="#252c41"/>
+        <path id="Shape-5" data-name="Shape" d="M102.069,102.069h0A102.068,102.068,0,0,1,0,0H102.069Z" transform="translate(497.931 800.689)" fill="#9bc53d"/>
+        <path id="Shape-6" data-name="Shape" d="M200,200h0C89.543,200,0,110.456,0,0H200Z" transform="translate(0 1000.689)" fill="#caf316"/>
+        <path id="Shape-7" data-name="Shape" d="M102.069,102.069h0A102.068,102.068,0,0,1,0,0H102.069Z" transform="translate(97.931 1000.689)" fill="#252c41"/>
+        <path id="Shape-8" data-name="Shape" d="M200,200h0C89.542,200,0,110.456,0,0H200Z" transform="translate(600 1000.689)" fill="#9bc53d"/>
+        <path id="Shape-9" data-name="Shape" d="M102.069,102.069h0A102.068,102.068,0,0,1,0,0H102.069Z" transform="translate(697.931 1000.689)" fill="#caf316"/>
+        <path id="Shape-10" data-name="Shape" d="M-200,0V200c0,110.456,89.544,200,200,200H0V200C0,89.544-89.544,0-200,0Z" transform="translate(200 1200.689) rotate(-180)" fill="#f2f3f8"/>
+        <path id="Shape-11" data-name="Shape" d="M-100,0V99.151A100.08,100.08,0,0,0,0,199.31H0V100.159A100.079,100.079,0,0,0-100,0Z" transform="translate(200 1000) rotate(180)" fill="#f1f500"/>
+        <path id="Shape-12" data-name="Shape" d="M400,0H200C89.544,0,0,89.544,0,200H200c110.456,0,200-89.544,200-200Z" transform="translate(200 600.689)" fill="#f2f3f8"/>
+        <path id="Shape-13" data-name="Shape" d="M199.31,0H100.159A100.08,100.08,0,0,0,0,100H99.151A100.079,100.079,0,0,0,199.31,0Z" transform="translate(200 700.689)" fill="#77ba99"/>
+        <path id="Shape-14" data-name="Shape" d="M60,30A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30H0A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30Z" transform="translate(114.483 715.172)" fill="#77ba99"/>
+        <path id="Shape-15" data-name="Shape" d="M60,30A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30H0A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30Z" transform="translate(20 715.172)" fill="#252c41"/>
+        <path id="Shape-16" data-name="Shape" d="M60,30A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30H0A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30Z" transform="translate(114.483 620.689)" fill="#9bc53d"/>
+        <path id="Shape-17" data-name="Shape" d="M199.31,100c0,55.228-44.618,100-99.655,100S0,155.228,0,100,44.618,0,99.655,0H199.31Z" transform="translate(600.69 600.689)" fill="#caf316"/>
+      </g>
+      <g id="Group_47" data-name="Group 47" transform="translate(1600 600.689) rotate(180)">
+        <path id="Shape-18" data-name="Shape" d="M100,200V100A100,100,0,0,0,0,0H0V100A100,100,0,0,0,100,200Z" transform="translate(200 400.689)" fill="#252c41"/>
+        <path id="Shape-19" data-name="Shape" d="M0,0C110.456,0,200,89.544,200,200H0Z" transform="translate(600) rotate(90)" fill="#77ba99"/>
+        <path id="Shape-20" data-name="Shape" d="M100,0V100A100,100,0,0,1,0,200V100A100,100,0,0,1,100,0Z" transform="translate(100 400.689)" fill="#caf316"/>
+        <path id="Shape-21" data-name="Shape" d="M0,100H100A100,100,0,0,0,200,0H100A100,100,0,0,0,0,100Z" transform="translate(600 400)" fill="#252c41"/>
+        <path id="Shape-22" data-name="Shape" d="M0,100H100A100,100,0,0,0,200,0H100A100,100,0,0,0,0,100Z" transform="translate(500 500)" fill="#9bc53d"/>
+        <path id="Shape-23" data-name="Shape" d="M0,0V200C0,310.456,89.544,400,200,400h0V200C200,89.544,110.456,0,0,0Z" transform="translate(600)" fill="#77ba99"/>
+        <path id="Shape-24" data-name="Shape" d="M0,0V99.151A100.08,100.08,0,0,0,100,199.31h0V100.159A100.079,100.079,0,0,0,0,0Z" transform="translate(700 200.69)" fill="#252c41"/>
+        <path id="Shape-25" data-name="Shape" d="M0,400.69V200.345C0,89.7,89.543,0,200,0h0V200.345C200,310.991,110.457,400.69,0,400.69Z" fill="#252c41"/>
+        <path id="Shape-26" data-name="Shape" d="M0,199.31V100.159A100.08,100.08,0,0,1,100,0h0V99.151A100.079,100.079,0,0,1,0,199.31Z" transform="translate(100)" fill="#9bc53d"/>
+        <path id="Shape-27" data-name="Shape" d="M200,0V200c0,110.456-89.544,200-200,200H0V200C0,89.544,89.544,0,200,0Z" transform="translate(200)" fill="#f2f3f8"/>
+        <path id="Shape-28" data-name="Shape" d="M100,0V99.151A100.08,100.08,0,0,1,0,199.31H0V100.159A100.079,100.079,0,0,1,100,0Z" transform="translate(200 201.379)" fill="#caf316"/>
+        <path id="Shape-29" data-name="Shape" d="M0,30A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30h0A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30Z" transform="translate(719.31 517.241)" fill="#77ba99"/>
+        <path id="Shape-30" data-name="Shape" d="M0,30A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30h0A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30Z" transform="translate(519.31 420.689)" fill="#9bc53d"/>
+        <path id="Shape-31" data-name="Shape" d="M0,26.9A26.9,26.9,0,0,1,26.9,0h0a26.9,26.9,0,0,1,26.9,26.9h0a26.9,26.9,0,0,1-26.9,26.9h0A26.9,26.9,0,0,1,0,26.9Z" transform="translate(23.448 423.448)" fill="#77ba99"/>
+        <path id="Shape-32" data-name="Shape" d="M0,100A100,100,0,0,1,100,0h0A100,100,0,0,1,200,100h0A100,100,0,0,1,100,200h0A100,100,0,0,1,0,100Z" transform="translate(400 200)" fill="#f1f500"/>
+        <path id="Shape-33" data-name="Shape" d="M0,55.517A55.518,55.518,0,0,1,55.517,0h0a55.518,55.518,0,0,1,55.517,55.517h0a55.518,55.518,0,0,1-55.517,55.517h0A55.518,55.518,0,0,1,0,55.517Z" transform="translate(444.828 244.828)" fill="#252c41"/>
+        <path id="Shape-34" data-name="Shape" d="M100,200A100,100,0,1,0,0,100V200Z" transform="translate(300 400.689)" fill="#77ba99"/>
+      </g>
+      <g id="Group_45" data-name="Group 45" transform="translate(1599.311 601.379) rotate(180)">
+        <path id="Shape-35" data-name="Shape" d="M200,200h0C89.544,200,0,110.456,0,0H200Z" transform="translate(1200 200)" fill="#f1f500"/>
+        <path id="Shape-36" data-name="Shape" d="M0,0C110.456,0,200,89.544,200,200H0Z" transform="translate(1000 400.689)" fill="#caf316"/>
+        <path id="Shape-37" data-name="Shape" d="M200,0H100A100,100,0,0,0,0,100H100A100,100,0,0,0,200,0Z" transform="translate(1197 82)" fill="#252c41"/>
+        <path id="Shape-38" data-name="Shape" d="M200,0H100A100,100,0,0,0,0,100H100A100,100,0,0,0,200,0Z" transform="translate(1397 101)" fill="#f1f500"/>
+        <path id="Shape-39" data-name="Shape" d="M200,100H100A100,100,0,0,1,0,0H100A100,100,0,0,1,200,100Z" transform="translate(1397 1)" fill="#77ba99"/>
+        <path id="Shape-40" data-name="Shape" d="M400,0H200C89.544,0,0,89.544,0,200H200c110.456,0,200-89.544,200-200Z" transform="translate(800 200)" fill="#252c41"/>
+        <path id="Shape-41" data-name="Shape" d="M200,0H100.506C45,0,0,44.772,0,100H99.494C155,100,200,55.228,200,0Z" transform="translate(800 300)" fill="#f2f3f8"/>
+        <path id="Shape-42" data-name="Shape" d="M0,30A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30h0A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30Z" transform="translate(1222.069 21.379)" fill="#9bc53d"/>
+        <path id="Shape-43" data-name="Shape" d="M0,30A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30h0A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30Z" transform="translate(1318.621 21.379)" fill="#caf316"/>
+        <path id="Shape-44" data-name="Shape" d="M0,30A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30h0A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30Z" transform="translate(1162.069 359.311)" fill="#77ba99"/>
+        <path id="Shape-45" data-name="Shape" d="M0,100A100,100,0,0,1,100,0h0A100,100,0,0,1,200,100h0A100,100,0,0,1,100,200H0Z" transform="translate(800 400)" fill="#77ba99"/>
+        <path id="Shape-46" data-name="Shape" d="M0,51.723A51.724,51.724,0,0,1,51.725,0h0a51.724,51.724,0,0,1,51.723,51.723h0a51.724,51.724,0,0,1-51.723,51.725H0Z" transform="translate(800 497.241)" fill="#f1f500"/>
+        <path id="Shape-47" data-name="Shape" d="M200,100A100,100,0,0,0,100,0h0A100,100,0,0,0,0,100H0A100,100,0,0,0,100,200H200Z" transform="translate(1200 400)" fill="#77ba99"/>
+        <path id="Shape-48" data-name="Shape" d="M103.448,51.723A51.724,51.724,0,0,0,51.723,0h0A51.724,51.724,0,0,0,0,51.723H0a51.724,51.724,0,0,0,51.723,51.725h51.725Z" transform="translate(1296.552 496.552)" fill="#f1f500"/>
+        <path id="Shape-49" data-name="Shape" d="M200,100A100,100,0,0,0,100,0h0A100,100,0,0,0,0,100H0A100,100,0,0,0,100,200H200Z" transform="translate(1000)" fill="#caf316"/>
+        <path id="Shape-50" data-name="Shape" d="M103.448,51.723A51.724,51.724,0,0,0,51.723,0h0A51.724,51.724,0,0,0,0,51.723H0a51.724,51.724,0,0,0,51.723,51.725h51.725Z" transform="translate(1096.552 96.552)" fill="#77ba99"/>
+        <path id="Shape-51" data-name="Shape" d="M0,100A100,100,0,0,0,100,200h0A100,100,0,0,0,200,100h0A100,100,0,0,0,100,0H0Z" transform="translate(800)" fill="#9bc53d"/>
+        <path id="Shape-52" data-name="Shape" d="M0,51.725a51.724,51.724,0,0,0,51.725,51.723h0a51.724,51.724,0,0,0,51.723-51.723h0A51.724,51.724,0,0,0,51.725,0H0Z" transform="translate(800)" fill="#252c41"/>
+        <path id="Shape-53" data-name="Shape" d="M200,200C89.544,200,0,110.456,0,0H200Z" transform="translate(1599.311 200) rotate(90)" fill="#77ba99"/>
+        <path id="Shape-54" data-name="Shape" d="M200,200h0C89.542,200,0,110.456,0,0H200Z" transform="translate(1599.311 400) rotate(90)" fill="#9bc53d"/>
+        <path id="Shape-55" data-name="Shape" d="M102.069,102.069h0A102.068,102.068,0,0,1,0,0H102.069Z" transform="translate(1599.311 497.931) rotate(90)" fill="#caf316"/>
+      </g>
+      <g id="Group_43" data-name="Group 43" transform="translate(1600 1801.689) rotate(180)">
+        <path id="Shape-56" data-name="Shape" d="M0,0H200C310.456,0,400,89.544,400,200H200C89.544,200,0,110.456,0,0Z" transform="translate(800 800.689)" fill="#252c41"/>
+        <path id="Shape-57" data-name="Shape" d="M200,200h0C89.544,200,0,110.456,0,0H200Z" transform="translate(800 1200.689) rotate(-90)" fill="#f2f3f8"/>
+        <path id="Shape-58" data-name="Shape" d="M200,200C89.544,200,0,110.456,0,0H200Z" transform="translate(1200 600.689)" fill="#252c41"/>
+        <path id="Shape-59" data-name="Shape" d="M400,0H200C89.544,0,0,89.544,0,200H200c110.456,0,200-89.544,200-200Z" transform="translate(800 600.689)" fill="#f2f3f8"/>
+        <path id="Shape-60" data-name="Shape" d="M199.31,0H100.159A100.08,100.08,0,0,0,0,100H99.151A100.079,100.079,0,0,0,199.31,0Z" transform="translate(800 700.689)" fill="#252c41"/>
+        <path id="Shape-61" data-name="Shape" d="M0,0H99.494C155,0,200,44.772,200,100H100.506C45,100,0,55.228,0,0Z" transform="translate(1000 900.689)" fill="#9bc53d"/>
+        <path id="Shape-62" data-name="Shape" d="M0,400V200C0,89.544,89.544,0,200,0h0V200c0,110.456-89.544,200-200,200Z" transform="translate(1200 800.689)" fill="#9bc53d"/>
+        <path id="Shape-63" data-name="Shape" d="M0,199.31V100.158A100.08,100.08,0,0,1,100,0h0V99.152A100.08,100.08,0,0,1,0,199.31Z" transform="translate(1300 800.689)" fill="#252c41"/>
+        <path id="Shape-64" data-name="Shape" d="M0,60A60,60,0,0,1,60,0h0a60,60,0,0,1,60,60h0a60,60,0,0,1-60,60h0A60,60,0,0,1,0,60Z" transform="translate(1140.689 740)" fill="#77ba99"/>
+        <path id="Shape-65" data-name="Shape" d="M0,30A30,30,0,0,1,30,0h0A30,30,0,0,1,60,30h0A30,30,0,0,1,30,60h0A30,30,0,0,1,0,30Z" transform="translate(1171.034 770.345)" fill="#f1f500"/>
+        <path id="Shape-66" data-name="Shape" d="M0,100A100,100,0,0,1,100,0h0A100,100,0,0,1,200,100h0A100,100,0,0,1,100,200h0A100,100,0,0,1,0,100Z" transform="translate(1000 1000.689)" fill="#77ba99"/>
+        <path id="Shape-67" data-name="Shape" d="M0,55.517A55.518,55.518,0,0,1,55.517,0h0a55.518,55.518,0,0,1,55.517,55.517h0a55.518,55.518,0,0,1-55.517,55.517h0A55.518,55.518,0,0,1,0,55.517Z" transform="translate(1044.828 1044.138)" fill="#252c41"/>
+        <path id="Shape-68" data-name="Shape" d="M200,200h0C89.544,200,0,110.456,0,0H200Z" transform="translate(1399.311 600)" fill="#f2f3f8"/>
+        <path id="Shape-69" data-name="Shape" d="M200,100A100,100,0,0,0,100,0h0A100,100,0,0,0,0,100H0A100,100,0,0,0,100,200H200Z" transform="translate(1600 1201) rotate(180)" fill="#f1f500"/>
+        <path id="Shape-70" data-name="Shape" d="M103.448,51.723A51.724,51.724,0,0,0,51.723,0h0A51.724,51.724,0,0,0,0,51.723H0a51.724,51.724,0,0,0,51.723,51.725h51.725Z" transform="translate(1503.448 1104.448) rotate(180)" fill="#f1f500"/>
+        <path id="Shape-71" data-name="Shape" d="M0,100A100,100,0,0,1,100,0h0A100,100,0,0,1,200,100h0A100,100,0,0,1,100,200h0A100,100,0,0,1,0,100Z" transform="translate(1599.311 800) rotate(90)" fill="#77ba99"/>
+        <path id="Shape-72" data-name="Shape" d="M0,55.517A55.518,55.518,0,0,1,55.517,0h0a55.518,55.518,0,0,1,55.517,55.517h0a55.518,55.518,0,0,1-55.517,55.517h0A55.518,55.518,0,0,1,0,55.517Z" transform="translate(1555.862 844.828) rotate(90)" fill="#252c41"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -4,21 +4,31 @@
 
 #forms {
   width: 100%;
-  margin: 2rem 0;
+  padding: 4rem;
+  @include image;
+  min-height: 100vh;
+  @include col-center;
+  background-image: url('/assets/images/cover-one.svg');
 
   .signup,
   .login {
-    width: 100%;
+    width: 60%;
+    padding: 3rem;
+    @include shadow;
     @include col-center;
+    border-radius: 0.4rem;
+    background-color: $light;
 
     .title {
       @include title;
-      margin-bottom: 1rem;
+      color: $dark;
+      margin-bottom: 2rem;
     }
 
     .text {
       color: $text;
       @include text;
+      margin-bottom: 2rem;
 
       .link {
         color: $dark;
@@ -31,6 +41,7 @@
     .message {
       color: $text;
       @include text;
+      margin-bottom: 2rem;
 
       .error {
         @include text;
@@ -40,7 +51,7 @@
     }
 
     .form {
-      width: 60%;
+      width: 100%;
       @include col-center;
 
       .remember {
@@ -67,7 +78,9 @@
 
         .label {
           width: 80%;
+          color: $text;
           @include text;
+          font-size: 0.8rem;
         }
 
         .input {
