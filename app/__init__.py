@@ -28,7 +28,7 @@ def create_app(config_name):
   assets = Environment(app)
   assets.url = app.static_url_path
   
-  sass = Bundle('sass/global.scss', filters='pyscss', depends='sass/base/*.scss', output='styles/global.css')
+  sass = Bundle('sass/global.scss', filters='pyscss', depends='sass/**/*.scss', output='styles/global.css')
   
   assets.config['PYSCSS_LOAD_PATHS'] = assets.load_path
   assets.config['PYSCSS_STATIC_URL'] = assets.url
