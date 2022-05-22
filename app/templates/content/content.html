@@ -1,6 +1,14 @@
 {% extends 'base.html' %} {% block content %} {% include 'navbar.html' %}
-<section class="content">
-  <h1>Content</h1>
-  <p>Content page</p>
+<section id="content">
+  <div class="banner">
+    <div class="header">
+      <h1 class="title">{{blog.title}}</h1>
+      <p class="caption">{{blog.caption}}</p>
+      <p class="posted">{{blog.posted}}</p>
+    </div>
+  </div>
+  <div class="blog">
+    <p class="content">{{blog.content}}</p>
+  </div>
 </section>
 {% endblock %}

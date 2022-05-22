@@ -3,5 +3,6 @@
   <p class="category">{{blog.title}}</p>
   <p class="caption">{{blog.caption}}</p>
   <p class="date">{{blog.posted}}</p>
+  <a href="{{url_for('content.index', blog_id = blog.id)}}">Read more</a>
 </div>
 {% endfor %} {% else %} {% endif %} {% endmacro %}

@@ -7,14 +7,14 @@
     <a class="btn" href="/">get started</a>
   </div>
 </section>
-<section class="container">
-  <div id="section-title">
-    <h3 class="title">Recent Blogs</h3>
+<section id="container">
+  <div class="section-title">
+    <h3 class="title">Recent</h3>
   </div>
-  <!-- {% if pitch %}
-  <div id="pitches">{{ macro.get(pitch) }}</div>
+  {% if blog %}
+  <div id="grid">{{ macro.get(blog) }}</div>
   {% else %}
-  <p class="msg-text">No recent Pitches available</p>
-  {% endif %} -->
+  <p class="msg-text">No recent content available</p>
+  {% endif %}
 </section>
 {% endblock %}

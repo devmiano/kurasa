@@ -10,9 +10,10 @@ from . import main
 @main.route('/')
 def index():
   '''function that renders the homepage'''
-  title = 'Challenge yourself with one of a kind pitch deck '
+  title = 'Blog for Life'
+  blog = Blog.query.order_by(Blog.posted.desc()).all()
  
-  return render_template('index.html', title=title)
+  return render_template('index.html', title=title, blog=blog)
 
 
 @main.route('/user/<uname>')

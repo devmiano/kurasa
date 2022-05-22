@@ -8,6 +8,14 @@ from .. import db, photos
 from . import content
 
 
+@content.route('/<blog_id>')
+def index(blog_id):
+  blog = Blog.query.filter_by(id=blog_id).first()
+  
+  title = f'{blog.title}'
+  return render_template('content/content.html', title=title, blog_id=blog.id, blog=blog)
+
+
 @content.route('/<uname>/new',methods=['GET', 'POST'])
 def create(uname):
   user = User.query.filter_by(username=uname).first()
@@ -32,3 +40,5 @@ def create(uname):
  
   title = 'Create a new blog'
   return render_template('content/create.html', title=title, form=form, uname=user.username,)
+
+

@@ -1,0 +1,64 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/mixins';
+
+#content {
+  width: 100%;
+  margin-top: 4rem;
+
+  .banner {
+    width: 100%;
+    padding: 4rem;
+    @include image;
+    height: auto;
+    @include col-center;
+    background-image: url('/assets/images/cover-three.svg');
+
+    .header {
+      width: 60%;
+      padding: 3rem;
+      @include shadow;
+      @include col-center;
+      border-radius: 0.4rem;
+      background-color: $light;
+
+      .title {
+        @include title;
+        color: $dark;
+        margin-bottom: 2rem;
+      }
+      .caption {
+        color: $text;
+        @include text;
+        margin-bottom: 2rem;
+      }
+      .posted {
+        color: $text;
+        @include text;
+      }
+    }
+  }
+  .blog {
+    padding: 4rem;
+    .content {
+      color: $text;
+      @include text;
+    }
+  }
+}
+
+#grid {
+  @include grid-four;
+}
+
+#container {
+  padding: 4rem;
+
+  .section-title {
+    .title {
+      @include title;
+      color: $dark;
+      margin-bottom: 2rem;
+    }
+  }
+}
