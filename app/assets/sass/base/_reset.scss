@@ -95,13 +95,13 @@ select {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $accent-100;
-  border-radius: 5rem;
   margin: 0.2rem;
+  background: $dark;
+  border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: $accent-300;
+  background: $primary;
 }
 
 input:-webkit-autofill,

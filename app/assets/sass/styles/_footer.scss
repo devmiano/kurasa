@@ -3,19 +3,22 @@
 @import '../base/mixins';
 
 #footer {
-  @include row-center;
   gap: 1rem;
   width: 100%;
-  height: 5rem;
+  height: 4rem;
+  padding: 1rem;
   margin-top: auto;
+  @include row-between;
   background-color: $dark;
 
   .text {
     @include text;
-    color: $accent-300;
+    color: $primary;
+    font-weight: 200;
   }
   .copy {
     @include text;
-    color: $accent-100;
+    color: $primary;
+    font-weight: 200;
   }
 }

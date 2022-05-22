@@ -1,3 +1,87 @@
 @import '../base/colors';
 @import '../base/fonts';
 @import '../base/mixins';
+
+#forms {
+  width: 100%;
+  margin: 2rem 0;
+
+  .signup,
+  .login {
+    width: 100%;
+    @include col-center;
+
+    .title {
+      @include title;
+      margin-bottom: 1rem;
+    }
+
+    .text {
+      color: $text;
+      @include text;
+
+      .link {
+        color: $dark;
+        @include link;
+        @include text;
+        font-weight: 600;
+      }
+    }
+
+    .message {
+      color: $text;
+      @include text;
+
+      .error {
+        @include text;
+        color: $danger;
+        font-weight: 300;
+      }
+    }
+
+    .form {
+      width: 60%;
+      @include col-center;
+
+      .remember {
+        width: 80%;
+        @include row-start;
+
+        .input {
+          @include text;
+          @include input;
+          margin: 0.5rem 1rem;
+        }
+      }
+
+      .group {
+        width: 100%;
+        margin: 0.4rem 0;
+        @include col-center;
+
+        .error {
+          @include text;
+          color: $danger;
+          list-style: none;
+        }
+
+        .label {
+          width: 80%;
+          @include text;
+        }
+
+        .input {
+          width: 80%;
+          @include text;
+          @include input;
+        }
+
+        .btn {
+          width: 80%;
+          @include btn;
+          margin: 0.5rem 0;
+        }
+      }
+    }
+  }
+}

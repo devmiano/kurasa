@@ -1,55 +1,47 @@
 {% extends 'base.html' %} {% block content %}
-<div class="wrapper">
-  <div class="profmage">
-    <img
-      class="img"
-      src="{{url_for('static', filename='images/bg.svg')}}"
-      alt=""
-    />
-  </div>
+<div id="forms">
   <div class="login">
     <h1 class="title">Log In</h1>
     <div class="message">
       {% for message in get_flashed_messages() %}
-      <p>{{message}}</p>
+      <p class="error">{{message}}</p>
       {% endfor %}
     </div>
     <form class="form" method="post">
       {{ login.csrf_token }}
       <div class="group">
         <p class="label">{{ login.username.label }}</p>
-        <p class="input">{{ login.username() }}</p>
-        {% for error in login.username.errors %}
+        {{ login.username(class="input") }} {% for error in
+        login.username.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
 
       <div class="group">
         <p class="label">{{ login.password.label }}</p>
-        <p class="input">{{ login.password() }}</p>
-        {% for error in login.password.errors %}
+        {{ login.password(class="input") }} {% for error in
+        login.password.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
 
       <div class="remember">
         <p class="label">{{ login.remember.label }}</p>
-        <p class="input">{{ login.remember() }}</p>
-        {% for error in login.remember.errors %}
+        {{ login.remember(class="input") }} {% for error in
+        login.remember.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
 
       <div class="group">
-        <button class="btn">{{ login.submit() }}</button>
-        {% for error in login.submit.errors %}
+        {{ login.submit(class="btn") }} {% for error in login.submit.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
     </form>
     <p class="text">
       Dont have an account?
-      <a class="link" href="{{url_for('auth.signup')}}">Sign Up</a>
+      <a class="link" href="{{url_for('auth.signup')}}">Join</a>
     </p>
   </div>
 </div>

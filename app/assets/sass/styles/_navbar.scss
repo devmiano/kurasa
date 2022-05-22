@@ -25,7 +25,7 @@
       @include link;
       .text {
         @include text;
-        color: $accent-300;
+        color: $primary;
       }
     }
   }
@@ -41,7 +41,7 @@
 
       .text {
         @include text;
-        color: $accent-300;
+        color: $primary;
       }
     }
   }

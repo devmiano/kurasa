@@ -1,12 +1,5 @@
 {% extends 'base.html' %} {% block content %}
-<div class="wrapper">
-  <div class="profmage">
-    <img
-      class="img"
-      src="{{url_for('static', filename='images/bg.svg')}}"
-      alt=""
-    />
-  </div>
+<div id="forms">
   <div class="signup">
     <h1 class="title">Sign Up</h1>
     <form class="form" method="post">
@@ -14,37 +7,35 @@
 
       <div class="group">
         <p class="label">{{ signup.username.label }}</p>
-        <p class="input">{{ signup.username() }}</p>
-        {% for error in signup.username.errors %}
+        {{ signup.username(class="input") }} {% for error in
+        signup.username.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
 
       <div class="group">
         <p class="label">{{ signup.email.label }}</p>
-        <p class="input">{{ signup.email() }}</p>
-        {% for error in signup.email.errors %}
+        {{ signup.email(class="input") }} {% for error in signup.email.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
       <div class="group">
         <p class="label">{{ signup.password.label }}</p>
-        <p class="input">{{ signup.password() }}</p>
-        {% for error in signup.password.errors %}
+        {{ signup.password(class="input") }} {% for error in
+        signup.password.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
 
       <div class="group">
         <p class="label">{{ signup.password_confirm.label }}</p>
-        <p class="input">{{ signup.password_confirm() }}</p>
-        {% for error in signup.password_confirm.errors %}
+        {{ signup.password_confirm(class="input") }} {% for error in
+        signup.password_confirm.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
       <div class="group">
-        <button class="btn">{{ signup.submit() }}</button>
-        {% for error in signup.submit.errors %}
+        {{ signup.submit(class="btn") }} {% for error in signup.submit.errors %}
         <li class="error">{{error}}</li>
         {% endfor %}
       </div>
