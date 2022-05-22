@@ -43,6 +43,9 @@ def create_app(config_name):
   from .main import main as main_blueprint
   app.register_blueprint(main_blueprint)
   
+  from .content import content as content_blueprint
+  app.register_blueprint(content_blueprint, url_prefix='/content')
+  
   from .auth import auth as auth_blueprint
   app.register_blueprint(auth_blueprint, url_prefix='/auth')
   

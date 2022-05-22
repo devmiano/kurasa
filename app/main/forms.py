@@ -7,11 +7,3 @@ class UpdateProfile(FlaskForm):
   last_name = StringField('Enter your last name', validators=[InputRequired(), Length(min=4, max=100)])
   bio = TextAreaField('Tell us about you.',validators = [InputRequired()])
   submit = SubmitField('Submit')
-  
-class AddBlog(FlaskForm):
-  caption = TextAreaField('Enter your  caption')
-  submit = SubmitField('Submit')
-  
-class AddComment(FlaskForm):
-  caption = TextAreaField('Add your  comment')
-  submit = SubmitField('Submit')

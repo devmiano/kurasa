@@ -38,14 +38,6 @@ class User(UserMixin, db.Model):
   def __repr__(self):
       return f'User {self.username}'
     
-class Category(db.Model):
-  __tablename__ = 'categories'
-  id = db.Column(db.Integer, primary_key=True)
-  name = db.Column(db.String(255), unique=True, index=True)
-  title = db.Column(db.String(255))
-  
-  def __repr__(self):
-    return f'{self.name}'
   
 class Role(db.Model):
   __tablename__ = 'roles'
@@ -59,11 +51,10 @@ class Role(db.Model):
 class Blog(db.Model):
   __tablename__ = 'blogs'
   id = db.Column(db.Integer, primary_key=True)
-  title = db.Column(db.String(48))
-  short = db.Column(db.String(100))
+  title = db.Column(db.String(48), index = True)
+  caption = db.Column(db.String(100))
+  content = db.Column(db.String(255))
   blog_pic_path = db.Column(db.String(255))
-  content = db.Column(db.String(255), index = True)
-  category = db.Column(db.String(255), nullable=False)
   author_id = db.Column(db.Integer,db.ForeignKey("users.id"), nullable = False)
   comments = db.relationship('Comment', backref='blog', lazy='dynamic')
   posted = db.Column(db.DateTime,default=datetime.utcnow)
