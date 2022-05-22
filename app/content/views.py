@@ -8,8 +8,7 @@ from .. import db, photos
 from . import content
 
 
-@content.route('/user/<uname>/content/new',methods=['GET', 'POST'])
-@login_required
+@content.route('/<uname>/new',methods=['GET', 'POST'])
 def create(uname):
   user = User.query.filter_by(username=uname).first()
   '''function that renders the homepage'''

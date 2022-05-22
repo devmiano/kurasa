@@ -1,66 +1,59 @@
 {% extends 'base.html' %} {% import 'macros.html' as macro %} {% block content
 %}
-<main class="app">
-  {% include 'sidebar.html' %}
-  <section class="container">
-    <div id="profile">
-      <div class="head">
-        <div class="left">
-          <div class="user">
-            {% if user.profile_pic_path %}
-            <img
-              class="image"
-              src="{{url_for('static', filename=user.profile_pic_path)}}"
-              alt="{{user.username}}"
-            />
-            {% else %}
-            <img
-              class="image"
-              src="../../assets/icons/profile/person-cirlce.svg"
-              alt="person"
-            />
+<section class="container">
+  <div id="profile">
+    <div class="head">
+      <div class="left">
+        <div class="user">
+          {% if user.profile_pic_path %}
+          <img
+            class="image"
+            src="{{url_for('static', filename=user.profile_pic_path)}}"
+            alt="{{user.username}}"
+          />
+          {% else %}
+          <img class="image" src="" alt="person" />
 
-            {% endif %}
-            <p class="username">{{user.username}}</p>
-            <p class="email">{{user.email}}</p>
-            {% if user == current_user %}
-            <form
-              class="form"
-              action="{{url_for('main.update_pic',uname=user.username)}}"
-              method="post"
-              enctype="multipart/form-data"
-            >
-              <input type="file" name="photo" class="form-control" required />
-              <input type="submit" />
-            </form>
-            {% endif %}
-          </div>
-          <div class="bio">
-            {% if user.first_name %}
-            <h1>{{user.first_name}} {{user.last_name}}</h1>
-
-            {%else%}
-            <p class="text">Names not available</p>
-            {% endif %} {% if user.bio %}
-            <p>{{user.bio}}</p>
-            {%else%}
-            <p>No bio available</p>
-            {% endif %}
-          </div>
-        </div>
-
-        <div class="link">
+          {% endif %}
+          <p class="username">{{user.username}}</p>
+          <p class="email">{{user.email}}</p>
           {% if user == current_user %}
-          <a href="{{url_for('main.update_profile',uname=user.username)}}"
-            >Edit profile</a
+          <form
+            class="form"
+            action="{{url_for('main.update_pic',uname=user.username)}}"
+            method="post"
+            enctype="multipart/form-data"
           >
+            <input type="file" name="photo" class="form-control" required />
+            <input type="submit" />
+          </form>
+          {% endif %}
+        </div>
+        <div class="bio">
+          {% if user.first_name %}
+          <h1>{{user.first_name}} {{user.last_name}}</h1>
+
+          {%else%}
+          <p class="text">Names not available</p>
+          {% endif %} {% if user.bio %}
+          <p>{{user.bio}}</p>
+          {%else%}
+          <p>No bio available</p>
           {% endif %}
         </div>
       </div>
+
+      <div class="link">
+        {% if user == current_user %}
+        <a href="{{url_for('main.update_profile',uname=user.username)}}"
+          >Edit profile</a
+        >
+        {% endif %}
+      </div>
     </div>
-    <div id="section-title">
-      <h3 class="title">Your Pitches</h3>
-    </div>
-  </section>
-</main>
+  </div>
+  <div id="section-title">
+    <h3 class="title">Your Pitches</h3>
+  </div>
+</section>
 {% endblock %}

@@ -1,6 +1,35 @@
-{% extends 'base.html' %} {% block content %} {% include 'navbar.html' %}
-<section class="create">
-  <h1>CREATE</h1>
-  <p>create</p>
+{% extends 'base.html' %} {% block content %}
+<section id="forms">
+  <div class="create">
+    <h1 class="title">Create an new Blog</h1>
+    <form class="form" method="post">
+      {{ form.csrf_token }}
+
+      <div class="group">
+        <p class="label">{{ form.title.label }}</p>
+        {{ form.title(class="input") }} {% for error in form.title.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+
+      <div class="group">
+        <p class="label">{{ form.caption.label }}</p>
+        {{ form.caption(class="input") }} {% for error in form.caption.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+      <div class="group">
+        <p class="label">{{ form.content.label }}</p>
+        {{ form.content(class="input") }} {% for error in form.content.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+      <div class="group">
+        {{ form.submit(class="btn") }} {% for error in form.submit.errors %}
+        <li class="error">{{error}}</li>
+        {% endfor %}
+      </div>
+    </form>
+  </div>
 </section>
 {% endblock %}

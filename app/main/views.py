@@ -1,7 +1,7 @@
 from flask import render_template,request,redirect,url_for,abort
 from flask_login import login_required, current_user
-from ..models import Blog, User, Category, Comment
-from app.main.forms import AddBlog, UpdateProfile, AddComment
+from ..models import Blog, User, Comment
+from app.main.forms import UpdateProfile
 from datetime import datetime as dt
 
 from .. import db,photos
@@ -20,14 +20,13 @@ def profile(uname):
   
   user = User.query.filter_by(username=uname).first()
   author_id=current_user._get_current_object().id,
-  pitch = Blog.query.filter_by(id=author_id).order_by(Blog.posted).all()
   
   if user is None:
     abort(404)
     
   title = f'{user.first_name} {user.last_name}'
     
-  return render_template('profile/profile.html', user=user, pitch=pitch, title=title)
+  return render_template('profile/profile.html', user=user, title=title)
 
 
 @main.route('/user/<uname>/update', methods=['GET', 'POST'])

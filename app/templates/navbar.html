@@ -13,13 +13,16 @@
     >
       <p class="text">{{current_user.username}}</p>
     </a>
+    <a
+      class="link"
+      href="{{url_for('content.create',uname=current_user.username)}}"
+    >
+      <p class="text">Create</p>
+    </a>
     <a class="link" href="{{url_for('auth.logout')}}">
       <p class="text">Logout</p>
     </a>
     {% else %}
-    <a class="link" href="{{url_for('auth.login')}}">
-      <p class="text">Login</p>
-    </a>
     <a class="link" href="{{url_for('auth.signup')}}">
       <p class="text">Join</p>
     </a>
