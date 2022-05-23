@@ -51,8 +51,8 @@ class Role(db.Model):
 class Blog(db.Model):
   __tablename__ = 'blogs'
   id = db.Column(db.Integer, primary_key=True)
-  title = db.Column(db.String(100), index = True)
-  caption = db.Column(db.String(100))
+  title = db.Column(db.String(255), index = True)
+  caption = db.Column(db.String(255))
   content = db.Column(db.String(1000))
   blog_pic_path = db.Column(db.String(255))
   author_id = db.Column(db.Integer,db.ForeignKey("users.id"), nullable = False)

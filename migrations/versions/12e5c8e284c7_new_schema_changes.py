@@ -1,8 +1,8 @@
-"""new schema
+"""new schema changes
 
-Revision ID: 01b8bfd4fb4a
+Revision ID: 12e5c8e284c7
 Revises: 
-Create Date: 2022-05-23 03:56:26.159550
+Create Date: 2022-05-23 04:20:44.984261
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '01b8bfd4fb4a'
+revision = '12e5c8e284c7'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -42,9 +42,9 @@ def upgrade():
     op.create_index(op.f('ix_users_username'), 'users', ['username'], unique=True)
     op.create_table('blogs',
     sa.Column('id', sa.Integer(), nullable=False),
-    sa.Column('title', sa.String(length=48), nullable=True),
-    sa.Column('caption', sa.String(length=100), nullable=True),
-    sa.Column('content', sa.String(length=255), nullable=True),
+    sa.Column('title', sa.String(length=255), nullable=True),
+    sa.Column('caption', sa.String(length=255), nullable=True),
+    sa.Column('content', sa.String(length=1000), nullable=True),
     sa.Column('blog_pic_path', sa.String(length=255), nullable=True),
     sa.Column('author_id', sa.Integer(), nullable=False),
     sa.Column('posted', sa.DateTime(), nullable=True),
