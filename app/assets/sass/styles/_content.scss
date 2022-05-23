@@ -32,9 +32,16 @@
         @include text;
         margin-bottom: 2rem;
       }
+      .quote {
+        color: $text;
+        @include text;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
       .posted {
         color: $text;
         @include text;
+        float: right;
       }
     }
   }
@@ -60,5 +67,35 @@
       color: $dark;
       margin-bottom: 2rem;
     }
+  }
+}
+
+#card {
+  padding: 1rem;
+  @include col-start;
+  border-radius: 0.5rem;
+  border: 2px solid $light-300;
+
+  .title {
+    color: $dark;
+    @include subtext;
+  }
+
+  .caption {
+    @include text;
+  }
+
+  .date {
+    @include text;
+    font-size: 0.8rem;
+  }
+
+  .link {
+    color: $dark;
+    @include link;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: $tertiary;
   }
 }

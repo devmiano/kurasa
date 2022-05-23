@@ -467,16 +467,26 @@
           letter-spacing: 0.01rem;
           margin-bottom: 2rem; }
           @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000343}}
-          #content .banner .header .posted {
+          #content .banner .header .quote {
             color: #434f75;
             font-size: 1rem;
             font-weight: 400;
             font-family: 'Outfit', sans-serif;
-            letter-spacing: 0.01rem; }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000351}}
+            letter-spacing: 0.01rem;
+            text-align: center;
+            margin-bottom: 2rem; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000349}}
+            #content .banner .header .posted {
+              color: #434f75;
+              font-size: 1rem;
+              font-weight: 400;
+              font-family: 'Outfit', sans-serif;
+              letter-spacing: 0.01rem;
+              float: right; }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000358}}
   #content .blog {
     padding: 4rem; }
-    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000352}}
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000359}}
     #content .blog .content {
       color: #434f75;
       font-size: 1rem;
@@ -484,16 +494,16 @@
       font-family: 'Outfit', sans-serif;
       letter-spacing: 0.01rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000368}}
 #grid {
   gap: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; }
 
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000365}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000372}}
   #container {
     padding: 4rem; }
-    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000367}}
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000374}}
     #container .section-title .title {
       line-height: 1;
       font-weight: 400;
@@ -501,6 +511,44 @@
       font-family: 'Outfit', sans-serif;
       color: #252c41;
       margin-bottom: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000384}}
+#card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: 2px solid #d7dbea; }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000389}}
+  #card .title {
+    color: #252c41;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.05rem; }
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000394}}
+    #card .caption {
+      font-size: 1rem;
+      font-weight: 400;
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: 0.01rem; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\0000398}}
+      #card .date {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
+        letter-spacing: 0.01rem;
+        font-size: 0.8rem; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/styles\/_content\.scss}line{font-family:\00003103}}
+        #card .link {
+          color: #252c41;
+          text-decoration: none;
+          margin-top: 1rem;
+          padding: 0.5rem 1rem;
+          border-radius: 0.3rem;
+          background-color: #caf316; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/devmiano\/builds\/moringa\/kurasa\/app\/assets\/sass\/global\.scss}line{font-family:\0000314}}
 #app {

@@ -3,6 +3,7 @@ from flask_login import login_required, current_user
 from datetime import datetime as dt
 
 from app.content.forms import AddBlog, AddComment
+from app.requests import get_quotes
 from ..models import Blog, User, Comment
 from .. import db, photos
 from . import content
@@ -11,9 +12,9 @@ from . import content
 @content.route('/<blog_id>')
 def index(blog_id):
   blog = Blog.query.filter_by(id=blog_id).first()
-  
+  quote = get_quotes()
   title = f'{blog.title}'
-  return render_template('content/content.html', title=title, blog_id=blog.id, blog=blog)
+  return render_template('content/content.html', title=title, blog_id=blog.id, blog=blog, quote=quote)
 
 
 @content.route('/<uname>/new',methods=['GET', 'POST'])
